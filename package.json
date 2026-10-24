@@ -1,0 +1,16 @@
+{
+  "name": "electronic-devices-floyd-study",
+  "version": "1.0.0",
+  "description": "Interactive Study Hub for Electronic Devices (Thomas L. Floyd, 10th Ed.)",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "markdown-it-mathjax3": "^4.3.2",
+    "vitepress": "^1.5.0",
+    "vue": "^3.5.12"
+  }
+}
